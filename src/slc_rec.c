@@ -12,7 +12,7 @@ U16 gRecFileNameSendActive[SLC_MAX_REC_FILE_NAME_LEN]={0};
 U16 gRcvFileList[SLC_MAX_FILENAME_LIST][SLC_MAX_REC_FILE_NAME_LEN]={0};//下发的文件列表。
 
 U8 gSocSendBuffer[1024*15]={0}; //用来发送的buffer 15K
-U8 gSocReciveBuffer[1024*15]={0}; //用来收到的buffer 15K
+U8 gSocReciveBuffer[1024*20]={0}; //用来收到的buffer 20K
 
 /*
 	删掉录音整个文件夹。初步设计是在每次开机要删掉这个文件夹。
