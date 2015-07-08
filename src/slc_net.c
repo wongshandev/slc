@@ -542,7 +542,7 @@ void slc_set_record_packet(void)
 			*(_data._send_data+_data._data_lenth) = '}';
 
 			FS_Close(fd);
-			/*
+			 /*
 				不使用队列。
 				slc_add_node_tail(_data);
 
